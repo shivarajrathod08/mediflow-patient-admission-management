@@ -687,7 +687,7 @@ While MediFlow currently delivers an end-to-end, production-grade management sys
 
 **Author:** Rathlavath Shivaraj  
 **GitHub:** [@shivarajrathod08](https://github.com/shivarajrathod08)  
-**LinkedIn:** [rathavathshivaraj](https://www.linkedin.com/in/rathavathshivaraj/)  
+**LinkedIn:** [rathavathshivaraj](https://www.linkedin.com/in/rathlavathshivaraj/)  
 **Evaluation:** DScribe Software Engineer Intern Evaluation Project  
 
 ---
