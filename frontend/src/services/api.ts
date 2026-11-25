@@ -11,7 +11,9 @@ import {
   Ward,
 } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const rawBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const normalizedBase = rawBaseUrl.replace(/\/+$/, '');
+const API_BASE_URL = normalizedBase.endsWith('/api') ? normalizedBase : `${normalizedBase}/api`;
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
